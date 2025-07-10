@@ -1,0 +1,13 @@
+.job-container {
+  background-color: #000000;
+  display: flex;
+}
+
+.left-section {
+  width: 30%;
+  margin-right: 20px;
+}
+
+.right-section {
+  width: 70%;
+}

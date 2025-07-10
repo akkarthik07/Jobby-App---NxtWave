@@ -1,0 +1,157 @@
+* {
+  font-family: 'Roboto';
+}
+
+.job-list-items {
+  background-color: #202020;
+  padding: 25px;
+  margin-top: 25px;
+  border-radius: 15px;
+  width: 800px;
+  list-style-type: none;
+}
+
+.company-container {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 50px;
+}
+
+.designation {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.star-icon {
+  color: #fbbf24;
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.rating-count {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 4px;
+}
+
+.location-container-flex-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.job-meta-container {
+  margin-top: 20px;
+  display: flex;
+}
+
+.location-icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.employment-icon {
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.location-description {
+  color: #f8fafc;
+  margin-left: 6px;
+  font-size: 14px;
+}
+
+.employment-type {
+  color: #f8fafc;
+  margin-left: 6px;
+  font-size: 14px;
+}
+
+.package-container {
+  margin-top: 30px;
+}
+
+.package-per-year {
+  color: #ffffff;
+  margin-left: 6px;
+  font-size: 14px;
+}
+
+.separator {
+  border: 1px solid #7e858e;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.description-heading {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.job-description {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
+  color: #ffffff;
+  margin: 80px;
+}
+
+.failure-img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.failure-heading {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.failure-para {
+  color: #cbd5e1;
+  font-size: 14px;
+  margin-top: 18px;
+}
+
+.failure-button {
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 80px;
+  margin: 20px;
+}

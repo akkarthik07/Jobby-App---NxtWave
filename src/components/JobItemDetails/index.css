@@ -1,0 +1,147 @@
+* {
+  font-family: 'Roboto';
+}
+
+.get-job-details-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+  padding-right: 40px;
+}
+
+.full-job-item-container {
+  margin: 60px;
+}
+
+.job-items-container {
+  background-color: #202020;
+  padding: 45px;
+  border-radius: 25px;
+  width: 100%;
+}
+
+.logo-image-container {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo-image {
+  width: 50px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-title-head {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+.count-rating {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 4px;
+}
+
+.location-type-salary-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.location-type-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.job-description-container {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+.visit-link {
+  color: #6366f1;
+  font-size: 15px;
+  display: flex;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.job-description-heading {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.job-description-content {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.bi-link {
+  color: #6366f1;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.skills-heading {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.skills-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-top: 30px;
+}
+
+.company-life-heading {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.company-life-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.company-life-description {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.company-life-logo {
+  width: 320px;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+
+.similar-jobs-heading {
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.similar-job-cards {
+  display: flex;
+  gap: 30px;
+}

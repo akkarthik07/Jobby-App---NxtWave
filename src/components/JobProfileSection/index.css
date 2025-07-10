@@ -1,0 +1,42 @@
+.job-profile-container {
+  background-color: #000000;
+  min-height: 100vh;
+  padding-top: 30px;
+  padding-left: 80px;
+  padding-bottom: 20px;
+}
+
+.horizontal-line {
+  border: 0.5px solid #7e858e;
+  max-width: 280px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.filter-heading {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: 'Roboto';
+}
+
+.filter-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.employment-type-label {
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 8px;
+  line-height: 2.5;
+}
+
+.salary-type-label {
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 8px;
+  line-height: 2.5;
+}
