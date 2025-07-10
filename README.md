@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 In this project, let's build a **Jobby App** by applying the concepts we have learned till now.
 
 ### Refer to videos below:
@@ -14,6 +15,17 @@ In this project, let's build a **Jobby App** by applying the concepts we have le
 <div style="text-align: center;">
   <video style="max-width:80%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12);outline:none;" loop="true" autoplay="autoplay" controls="controls" muted>
     <source src="https://assets.ccbp.in/frontend/content/react-js/jobby-app-failure-output-v1.mp4" type="video/mp4">
+=======
+In this project, let's build a **Prime Video** by applying the concepts we have learned till now.
+
+### Refer to the video below:
+
+<br/>
+<div style="text-align: center;">
+  <video style="max-width:80%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12);outline:none;" loop="true" autoplay="autoplay" controls="controls" muted>
+    <source src="https://assets.ccbp.in/frontend/content/react-js/prime-video-output.mp4" type="video/mp4">
+    
+>>>>>>> b8328b89e048058ba29622d7ccbcbc154c60fc4a
   </video>
 </div>
 <br/>
@@ -21,6 +33,7 @@ In this project, let's build a **Jobby App** by applying the concepts we have le
 ### Design Files
 
 <details>
+<<<<<<< HEAD
 <summary>Login Route</summary>
 
 - [Extra Small (Size < 576px) and Small (Size >= 576px) - Login](https://assets.ccbp.in/frontend/content/react-js/jobby-app-login-sm-outputs.png)
@@ -59,6 +72,12 @@ In this project, let's build a **Jobby App** by applying the concepts we have le
 
 - [Extra Small (Size < 576px) and Small (Size >= 576px) - Not Found](https://assets.ccbp.in/frontend/content/react-js/jobby-app-not-found-sm-output-v0.png)
 - [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Not Found](https://assets.ccbp.in/frontend/content/react-js/jobby-app-not-found-lg-output-v0.png)
+=======
+<summary>Click to view</summary>
+
+- [Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://assets.ccbp.in/frontend/content/react-js/prime-video-lg-output-img.png)
+
+>>>>>>> b8328b89e048058ba29622d7ccbcbc154c60fc4a
 </details>
 
 ### Set Up Instructions
@@ -78,6 +97,7 @@ In this project, let's build a **Jobby App** by applying the concepts we have le
 
 The app must have the following functionalities
 
+<<<<<<< HEAD
 - **Login Route**
 
   - When invalid credentials are provided and the **Login** button is clicked, then the error message received from the response should be displayed
@@ -163,10 +183,39 @@ The app must have the following functionalities
   | :-----------: | :-------: |
   | salaryRangeId |  String   |
   |     label     |  String   |
+=======
+- **Action Movies List** and **Comedy Movies List** should be displayed using **React Slick**
+- The `App` is provided with `moviesList`. It consists of a list of movieItem objects with the following properties in each movieItem object
+
+  |     Key      | Data Type |
+  | :----------: | :-------: |
+  |      id      |  String   |
+  | thumbnailUrl |  String   |
+  |   videoUrl   |  String   |
+  |  categoryId  |  String   |
+
+- When the **next button** is clicked in any of the sliders, the next movie items thumbnail in the corresponding moviesList should be displayed
+- When the **previous button** is clicked in any of the sliders, the previous movie items thumbnail in the corresponding moviesList should be displayed <br/>
+
+  <div style="text-align: center;">
+    <img src="https://assets.ccbp.in/frontend/content/react-js/prime-video-next-previous-buttons-img.png" alt="movie slider buttons" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+  </div>
+<br/>
+
+- When you click on the **thumbnail**, then the popup should be opened,
+
+  - And corresponding video should be displayed using **React player** component from `react-player`
+    <div style="text-align: center;">
+      <img src="https://assets.ccbp.in/frontend/content/react-js/prime-video-popup-img.png" alt="popup" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+  </div>
+  <br/>
+  - When the close button is clicked, then the popup should be closed
+>>>>>>> b8328b89e048058ba29622d7ccbcbc154c60fc4a
 
 </details>
 
 <details>
+<<<<<<< HEAD
 
 <summary>API Requests & Responses</summary>
 
@@ -313,10 +362,56 @@ Returns a response containing the job details
     ...
   ]
 }
+=======
+<summary>Components Structure</summary>
+
+<br/>
+<div style="text-align: center;">
+    <img src="https://assets.ccbp.in/frontend/content/react-js/prime-video-compoment-structure-breakdown.png" alt="component structure breakdown" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+</div>
+<br/>
+
+</details>
+
+<details>
+<summary>Implementation Files</summary>
+<br/>
+
+Use these files to complete the implementation:
+
+- `src/components/PrimeVideo/index.js`
+- `src/components/PrimeVideo/index.css`
+- `src/components/MoviesSlider/index.js`
+- `src/components/MovieItem/index.js`
+- `src/components/MovieItem/index.css`
+
+</details>
+
+### Quick Tips
+
+<details close>
+<summary>Click to view</summary>
+
+- To build this project, take a look at the <a href='https://learning.ccbp.in/frontend-development/course?c_id=2f4192f7-7495-49ca-a6ce-6b74005e25f1&s_id=c1dc8b6e-864b-4417-9767-471b9e745405&t_id=416f0cab-8425-413b-9157-c7b4d4ae4467' target="_blank">React Slick</a>, <a href='https://learning.ccbp.in/frontend-development/course?c_id=2f4192f7-7495-49ca-a6ce-6b74005e25f1&s_id=b01fca1c-aa5c-4d79-b81e-0220e7649bd0&t_id=416f0cab-8425-413b-9157-c7b4d4ae4467' target="_blank">React Popup</a> and <a href='https://learning.ccbp.in/frontend-development/course?c_id=2f4192f7-7495-49ca-a6ce-6b74005e25f1&s_id=b6392b63-25f6-4215-be09-9f23ad91d789&t_id=416f0cab-8425-413b-9157-c7b4d4ae4467' target="_blank">React Video Player</a> reading materials
+
+- To style popup content use `.popup-content` class
+
+```jsx
+<Popup
+  modal
+  trigger={
+    //write code here
+  }
+  className="popup-content"
+>
+  //write code here
+</Popup>
+>>>>>>> b8328b89e048058ba29622d7ccbcbc154c60fc4a
 ```
 
 </details>
 
+<<<<<<< HEAD
 ### Quick Tips
 
 <details>
@@ -327,6 +422,8 @@ Returns a response containing the job details
 
 </details>
 
+=======
+>>>>>>> b8328b89e048058ba29622d7ccbcbc154c60fc4a
 ### Important Note
 
 <details>
@@ -336,6 +433,7 @@ Returns a response containing the job details
 
 **The following instructions are required for the tests to pass**
 
+<<<<<<< HEAD
 - Render `Home` Route component when the path in URL matches `/`
 - Render `Login` Route component when the path in URL matches `/login`
 - Render `Jobs` Route component when the path in URL matches `/jobs`
@@ -378,12 +476,21 @@ Returns a response containing the job details
   - The skill images should have the alt as the value of the key `name` from each object in the **skills** list received from the job details response
   - The company logo image in similar job item should have the alt as **similar job company logo**
   </details>
+=======
+- One frame of the slider should have 4 thumbnails
+- The thumbnail images in the app should have alt as **thumbnail**
+- The close button in the popup should have the `data-testid` as **closeButton**
+- `IoMdClose` from react-icons should be used for **Close Icon** in the Popup
+
+</details>
+>>>>>>> b8328b89e048058ba29622d7ccbcbc154c60fc4a
 
 ### Resources
 
 <details>
 <summary>Image URLs</summary>
 
+<<<<<<< HEAD
 - [https://assets.ccbp.in/frontend/react-js/home-sm-bg.png](https://assets.ccbp.in/frontend/react-js/home-sm-bg.png)
 - [https://assets.ccbp.in/frontend/react-js/home-lg-bg.png](https://assets.ccbp.in/frontend/react-js/home-lg-bg.png)
 - [https://assets.ccbp.in/frontend/react-js/profile-bg.png](https://assets.ccbp.in/frontend/react-js/profile-bg.png)
@@ -391,6 +498,9 @@ Returns a response containing the job details
 - [https://assets.ccbp.in/frontend/react-js/failure-img.png](https://assets.ccbp.in/frontend/react-js/failure-img.png) alt should be **failure view**
 - [https://assets.ccbp.in/frontend/react-js/no-jobs-img.png](https://assets.ccbp.in/frontend/react-js/no-jobs-img.png) alt should be **no jobs**
 - [https://assets.ccbp.in/frontend/react-js/jobby-app-not-found-img.png](https://assets.ccbp.in/frontend/react-js/jobby-app-not-found-img.png) alt should be **not found**
+=======
+- [https://assets.ccbp.in/frontend/react-js/prime-video-img.png](https://assets.ccbp.in/frontend/react-js/prime-video-img.png) alt should be **prime video**
+>>>>>>> b8328b89e048058ba29622d7ccbcbc154c60fc4a
 
 </details>
 
@@ -398,6 +508,7 @@ Returns a response containing the job details
 <summary>Colors</summary>
 
 <br/>
+<<<<<<< HEAD
 <div style="background-color: #64748b; width: 150px; padding: 10px; color: white">Hex: #64748b</div>
 <div style="background-color: #4f46e5; width: 150px; padding: 10px; color: white">Hex: #4f46e5</div>
 <div style="background-color: #f8fafc; width: 150px; padding: 10px; color: black">Hex: #f8fafc</div>
@@ -416,12 +527,23 @@ Returns a response containing the job details
 <div style="background-color: #475569; width: 150px; padding: 10px; color: white">Hex: #475569</div>
 <div style="background-color: #ff0b37; width: 150px; padding: 10px; color: white">Hex: #ff0b37</div>
 <br/>
+=======
+<div style="background-color: #000000; width: 150px; padding: 10px; color: white">Hex: #000000</div>
+<div style="background-color: #ffffff; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
+<div style="background-color: #231f20; width: 150px; padding: 10px; color: white">Hex: #231f20</div>
+<br/>
+
+>>>>>>> b8328b89e048058ba29622d7ccbcbc154c60fc4a
 </details>
 
 <details>
 <summary>Font-families</summary>
 
 - Roboto
+<<<<<<< HEAD
+=======
+
+>>>>>>> b8328b89e048058ba29622d7ccbcbc154c60fc4a
 </details>
 
 > ### _Things to Keep in Mind_

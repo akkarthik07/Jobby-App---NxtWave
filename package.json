@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "jobby-app",
+=======
+  "name": "prime-video",
+>>>>>>> b8328b89e048058ba29622d7ccbcbc154c60fc4a
   "private": true,
   "version": "1.0.0",
   "engines": {
@@ -7,10 +11,15 @@
     "npm": ">=6"
   },
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "@craco/craco": "6.1.1",
+>>>>>>> b8328b89e048058ba29622d7ccbcbc154c60fc4a
     "@testing-library/jest-dom": "5.11.9",
     "@testing-library/react": "11.2.5",
     "@testing-library/user-event": "12.6.2",
     "chalk": "4.1.0",
+<<<<<<< HEAD
     "history": "5.0.0",
     "msw": "0.28.1",
     "js-cookie": "2.2.1",
@@ -21,6 +30,20 @@
     "react-router-dom": "5.2.0"
   },
   "devDependencies": {
+=======
+    "jest-styled-components": "7.0.5",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-icons": "4.2.0",
+    "react-player": "2.9.0",
+    "react-slick": "0.28.1",
+    "reactjs-popup": "2.0.5",
+    "slick-carousel": "1.8.1",
+    "styled-components": "5.3.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "1.13.2",
+>>>>>>> b8328b89e048058ba29622d7ccbcbc154c60fc4a
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-prettier": "3.3.1",
@@ -31,9 +54,15 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
+<<<<<<< HEAD
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+=======
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+>>>>>>> b8328b89e048058ba29622d7ccbcbc154c60fc4a
     "lint": "eslint .",
     "lint:fix": "eslint --fix src/",
     "format": "prettier --write \"./src\"",
